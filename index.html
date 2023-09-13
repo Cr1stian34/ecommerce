@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRITO DE COMPRAS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="assets/js/main.js" type="module" defer></script>
+</head>
+<body>
+    <!--Loader-->
+    <div class="loader loader--hidden">
+        <div class="loader__container">
+            <span></span>
+        </div>
+    </div>
+    <!--Header-->
+    <header class="header">
+        <nav class="nav container">
+            <a href="/" class="nav--logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="logo--icon">
+                    <path fill="currentColor" d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                    </path>
+                  </svg>
+            </a>
+
+            <div class="nav_menu">
+                <button type="button" class="nav_btn btn_close">
+                    <i class='bx bx-x'></i>
+                </button>
+                <ul class="nav_list">
+                    <li class="nav_items">
+                        <a href="#" class="nav_link">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_link">Productos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_buttons">
+                <button id="toggle" type="button" class="nav_btn nav_btn_darkMode">
+                    <i class='bx bx-moon'></i>
+                   <!-- <input type="checkbox" id="darkmode-toggle">
+                    <label for="darkmode-toggle"></label>-->
+                </button>
+                <button type="button" class="nav_btn nav_btn_card">
+                    <i class='bx bx-shopping-bag'></i>
+                    <span class="notify">0</span>
+                </button>
+                <button type="button" class="nav_btn nav_btn_menu">
+                    <i class='bx bx-grid-alt'></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!--Main-->
+    <main class="main">
+        <section class="products section">
+            <h2 class="products_title section--title">Productos</h2>
+            <div class="products_container container">
+                <article class="product">
+                    <div class="product_image">
+                        <img src="https://res.cloudinary.com/duu1imwxs/image/upload/v1677278464/eCommerce/shirt1_prckre.png" alt="Producto 1">
+                    </div>
+                    <div class="product_content">
+                        <button type="button" class="product_btn add--to--cart">
+                            <i class='bx bx-cart-add'></i>
+                        </button>
+                        <span class="product_price">$18</span>
+                        <span class="product_stock">$Disponibles: 3</span>
+                        <h3 class="product_title">Camiseta de manga corta con cuello redondo</h3>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <div class="product_image">
+                        <img src="https://res.cloudinary.com/duu1imwxs/image/upload/v1677278464/eCommerce/shirt1_prckre.png" alt="Producto 1">
+                    </div>
+                    <div class="product_content">
+                        <button type="button" class="product_btn add--to--cart">
+                            <i class='bx bx-cart-add'></i>
+                        </button>
+                        <span class="product_price">$18</span>
+                        <span class="product_stock">$Disponibles: 3</span>
+                        <h3 class="product_title">Camiseta de manga corta con cuello redondo</h3>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <div class="product_image">
+                        <img src="https://res.cloudinary.com/duu1imwxs/image/upload/v1677278464/eCommerce/shirt1_prckre.png" alt="Producto 1">
+                    </div>
+                    <div class="product_content">
+                        <button type="button" class="product_btn add--to--cart">
+                            <i class='bx bx-cart-add'></i>
+                        </button>
+                        <span class="product_price">$18</span>
+                        <span class="product_stock">$Disponibles: 3</span>
+                        <h3 class="product_title">Camiseta de manga corta con cuello redondo</h3>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <div class="product_image">
+                        <img src="https://res.cloudinary.com/duu1imwxs/image/upload/v1677278464/eCommerce/shirt1_prckre.png" alt="Producto 1">
+                    </div>
+                    <div class="product_content">
+                        <button type="button" class="product_btn add--to--cart">
+                            <i class='bx bx-cart-add'></i>
+                        </button>
+                        <span class="product_price">$18</span>
+                        <span class="product_stock">$Disponibles: 3</span>
+                        <h3 class="product_title">Camiseta de manga corta con cuello redondo</h3>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <div class="product_image">
+                        <img src="https://res.cloudinary.com/duu1imwxs/image/upload/v1677278464/eCommerce/shirt1_prckre.png" alt="Producto 1">
+                    </div>
+                    <div class="product_content">
+                        <button type="button" class="product_btn add--to--cart">
+                            <i class='bx bx-cart-add'></i>
+                        </button>
+                        <span class="product_price">$18</span>
+                        <span class="product_stock">$Disponibles: 3</span>
+                        <h3 class="product_title">Camiseta de manga corta con cuello redondo</h3>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <div class="product_image">
+                        <img src="https://res.cloudinary.com/duu1imwxs/image/upload/v1677278464/eCommerce/shirt1_prckre.png" alt="Producto 1">
+                    </div>
+                    <div class="product_content">
+                        <button type="button" class="product_btn add--to--cart">
+                            <i class='bx bx-cart-add'></i>
+                        </button>
+                        <span class="product_price">$18</span>
+                        <span class="product_stock">$Disponibles: 3</span>
+                        <h3 class="product_title">Camiseta de manga corta con cuello redondo</h3>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!--Cart-->
+    <div class="cart">
+        <div class="cart_container">
+            <div class="cart_header">
+                <h3 class="cart_title">Carrito de Compras</h3>
+                <button class="cart_btn btn_close">
+                    <i class="bx bx-x"></i>
+                </button>
+            </div>
+            <div class="cart_body">
+               <!-- <div class="cart_empty">
+                    <i class="bx bx-cart"></i>
+                    <p class="cart_empty-text">No hay productos en el carrito</p>
+                </div>-->
+                <article class="article">
+                    <div class="article_image">
+                        <img src="https://res.cloudinary.com/duu1imwxs/image/upload/v1677278464/eCommerce/shirt1_prckre.png" alt="Producto 1">
+                    </div>
+                    <div class="article_content">
+                        <h3 class="article_title">Camiseta de manga corta con cuello redondo</h3>
+                        <span class="article_price">$10</span>
+                        <div class="article_quantity">
+                            <button class="article_quantity-btn article-minus">
+                                <i class="bx bx-minus"></i>
+                            </button>
+                            <span class="article_quantity-text">1</span>
+                            <button class="article_quantity-btn article-plus">
+                                <i class="bx bx-plus"></i>
+                            </button>
+                        </div>
+                        <button class="article_btn remove-from-cart">
+                            <i class="bx bx-trash"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+            <div class="cart_footer">
+                <div class="cart_count">
+                    <span class="cart_count-text">Articulos: </span>
+                    <span class="cart_count-item">0</span>
+                </div>
+                <div class="cart_total">
+                    <span class="cart_total-text">Total: </span>
+                    <span class="cart_total-item">$0</span>
+                </div>
+                <button type="button" class="cart_btn btn-buy">Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer section">
+        <div class="footer_container container">
+            <div class="footer_top">
+                <div class="footer_left">
+                    <h3 class="footer_title">Sobre Nosotros</h3>
+                    <p class="footer_text">Desarrollo de un pequeño e-commerce para mejorar mis habilidades en el 
+                        desarrollo de software, tomando en cuenta las habilidades aprendidas en Academlo, Ni nombre es 
+                        Cristian Muyudumbay trabaje solo en el desarrollo del eCommerce, me apasiona aprender y crear aplicaciones
+                        web, para el desarrollo de este pequeño proyecto utilize Html, Css y JavaScript puro. 
+                    </p>
+                </div>
+                <div class="footer_right">
+                    <h3 class="footer_title">Redes Sociales</h3>
+                    <ul class="footer_social">
+                        <li class="footer_item">
+                            <a href=" https://github.com/Cr1stian34" target="_blank" class="footer_link">
+                                <i class='bx bxl-gitlab'></i>
+                            </a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="https://www.instagram.com/cristian.muyu.alvarez34/" target="_blank" class="footer_link">
+                                <i class='bx bxl-instagram' ></i>
+                            </a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="https://www.linkedin.com/in/cristian-muyudumbay-alvarez-851344150/" target="_blank" class="footer_link">
+                                <i class='bx bxl-linkedin' ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_bottom">
+                    <p class="footer_text">© 2023 Cristian Muyudumbay - Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
